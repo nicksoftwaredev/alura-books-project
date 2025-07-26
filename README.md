@@ -29,8 +29,8 @@ This is my first project as a beginner developer. The idea was to build a simple
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic page structure.
-- **CSS3**: Styling and responsiveness (with Flexbox and/or CSS Grid).
-- **JavaScript**: For dynamic interactivity (carousels).
+- **CSS3**: Styling and responsiveness (with Flexbox).
+- **JavaScript**: For dynamic interactivity (carousel).
 ---
 
 ## 🚀 How to Run the Project
