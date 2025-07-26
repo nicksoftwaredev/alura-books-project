@@ -2,12 +2,13 @@
 
 ## 📄 Description
 
-### 🇧🇷 Em Português:
+### Em Português:
 
-Este projeto visa a criação de uma página web moderna e totalmente responsiva, desenvolvida com a metodologia mobile-first. A prioridade foi garantir uma experiência de usuário impecável em dispositivos móveis, para então expandir e adaptar o layout para tablets e desktops. O objetivo principal é demonstrar as melhores práticas em design responsivo, performance e acessibilidade em diferentes tamanhos de tela.
+Este é o meu primeiro projeto como desenvolvedor iniciante. A proposta foi criar uma página web simples, moderna e totalmente responsiva, utilizando a abordagem mobile-first. Comecei desenvolvendo para celulares, que são os dispositivos mais usados atualmente, e depois adaptei o layout para funcionar bem também em tablets e computadores. O objetivo principal foi praticar os conceitos básicos de HTML, CSS e design responsivo, aprendendo na prática como construir uma página que funcione bem em diferentes tamanhos de tela.
 
-### 🇺🇸 In English:
-This project aims to create a modern and fully responsive web page, developed using the mobile-first methodology. The main focus was to ensure an excellent user experience on mobile devices before scaling and adapting the layout for tablets and desktops. The primary goal is to demonstrate best practices in responsive design, performance, and accessibility across various screen sizes.
+In English:
+
+This is my first project as a beginner developer. The idea was to build a simple, modern, and fully responsive web page using the mobile-first approach. I started by designing for mobile devices, which are the most commonly used today, and then adapted the layout for tablets and desktops. The main goal was to practice the basics of HTML, CSS, and responsive design — learning hands-on how to build a page that works well on different screen sizes.
 
 ---
 
@@ -34,4 +35,4 @@ This project aims to create a modern and fully responsive web page, developed us
 
 ## 🚀 How to Run the Project
 
-To view and test the project locally, follow these steps:
+To view and test the project locally, follow these steps: https://nicksoftwaredev.github.io/alura-books-project/
