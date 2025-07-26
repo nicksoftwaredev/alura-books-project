@@ -1,0 +1,13 @@
+:root {
+    --color-background: #EBECEE;
+    --color-white: #FFFFFF;
+    --color-orange: #EB9B00;
+    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --blue-secundary: #002F52;
+    --color-black: #000000;
+    --color-gray: #474646;
+    --color-gray-light: #858585;
+    --main-font: 'Poppins';
+    --secundary-font: 'Josefin Sans';
+}
+

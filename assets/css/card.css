@@ -1,0 +1,137 @@
+.card {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.description-title {
+    color: var(--color-orange);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+}
+
+.description-title-secundary {
+    color: var(--blue-secundary);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+.description-paragraph {
+    color: var(--blue-secundary);
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-right: 1em;
+}
+
+.card-description {
+    display: flex;
+    margin: 0.5em 0;
+
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button-card {
+    background-color: var(--color-orange);
+    display: flex;
+    text-align: center;
+    padding: 1.5em 2.2em;
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.description-title-two {
+    color: var(--color-orange);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    margin: 0.5em 0;
+}
+
+.description-title-secundary-two {
+    color: var(--blue-secundary);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0.8em 0;
+}
+
+.description-paragraph-two {
+    color: var(--blue-secundary);
+    font-weight: 400;
+    font-size: 0.7em;
+    margin: 1.8em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 60%;
+        margin: 2em auto;
+    }
+
+    .description-title {
+        font-size: 1.2rem;
+        margin-bottom: 1.5em;
+    }
+
+    .description-title-secundary {
+        font-size: 1.2rem;
+        margin-bottom: 1.5em;
+    }
+
+    .description-paragraph {
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-top: 1.2em;
+        margin-right: 1.2em;
+    }
+
+    .description-title-two {
+        font-size: 1.1rem;
+    }
+
+    .description-title-secundary-two {
+        font-size: 1.3rem;
+    }
+
+    .description-paragraph-two {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .button-card {
+        cursor: pointer;
+        transition: color 0.5s ease;
+    }
+
+    .button-card:hover {
+        background-color: var(--blue-secundary);
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+
+    .card {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    .card .description h3,
+    .card .description p {
+        font-size: 1.5rem;
+    }
+}

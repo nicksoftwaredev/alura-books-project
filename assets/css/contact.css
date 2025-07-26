@@ -1,0 +1,72 @@
+.contact-end {
+    background-color: var(--color-white);
+    padding: 1em;
+}
+
+.contact-title .paragraph-title {
+    color: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.paragraph-title {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.input-email {
+    padding: 1em;
+    border: 0.1rem solid var(--blue-secundary);
+    border-radius: 2rem;
+    width: 90%;
+    color: var(--blue-secundary);
+}
+
+.input-email::placeholder {
+    font-family: var(--main-font);
+    color: var(--blue-secundary);
+    background: url('../img/mail.svg') no-repeat;
+    padding: 0.2em 0 0 2.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-title {
+        margin-top: 0.5em;
+        font-size: 2rem;
+        font-weight: 300;
+        width: 70%;
+    }
+
+    .input-email {
+        width: 30%;
+        margin-left: 4em;
+    }
+
+    .input-email {
+        transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .input-email:focus {
+        outline: none;
+        border: 0.1rem solid var(--color-orange);
+        box-shadow: 0 0 0.2rem var(--color-orange);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contact-end {
+        padding: 4em 25vw;
+    }
+}

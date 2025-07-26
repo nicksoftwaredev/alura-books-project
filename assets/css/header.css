@@ -1,0 +1,223 @@
+.menu-hamburguer {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../img/menu-hamburguer.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.page-header {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-img {
+    padding: 0.7em;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 50vw;
+}
+
+.container-button:checked~.container-label>.menu-hamburguer {
+    background-image: url('../img/menu-hamburguer-effect.svg');
+}
+
+.container-button:checked~.container-label {
+    background: var(--blue-secundary);
+}
+
+.container-button:checked~.menu-list {
+    display: block;
+}
+
+.list-menu-title,
+.list-menu-item {
+    padding: 1em;
+    background: var(--color-white);
+
+}
+
+.list-menu-title {
+    color: var(--color-orange);
+    font-weight: 700;
+}
+
+.list-menu-link {
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.container-title {
+    display: none;
+}
+
+.container-button {
+    display: none;
+}
+
+.options {
+    display: none;
+}
+
+.options-itens {
+    display: none;
+}
+
+.container-text {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .container-title,
+    .container-title-weight {
+        font-family: var(--secundary-font);
+        font-size: 1.8rem;
+    }
+
+    .container-title {
+        padding-left: 0.1em;
+        padding-top: 0.2em;
+        font-weight: 400;
+        display: block;
+    }
+
+    .container-title-weight {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options-itens {
+        padding: 0 1em;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .options-links {
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    .container-img-transparent {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .options-button:checked~.menu-list {
+        display: block;
+        width: auto;
+    }
+
+    .options-button {
+        display: none;
+    }
+
+    .options-button:checked~.options-label>.options-itens {
+        background: var(--blue-secundary);
+        color: var(--color-white);
+    }
+
+    .options-itens {
+        padding: 2em 1em;
+    }
+
+    .list-menu-item:hover {
+        background: var(--blue-secundary);
+    }
+
+    .list-menu-item:hover>.list-menu-link {
+        -webkit-text-fill-color: var(--color-white);
+        text-decoration: none;
+    }
+
+    .options-links {
+        cursor: pointer;
+        transition: color 0.5s ease;
+    }
+
+    .options-links:hover {
+        color: var(--color-orange);
+    }
+
+    .options-itens {
+        cursor: pointer;
+        transition: color 0.5s ease;
+    }
+
+    .options-itens:hover {
+        color: var(--color-orange);
+    }
+
+    .container-img {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-img:hover {
+        transform: scale(1.05);
+    }
+
+    .container-img-two {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-img-two:hover {
+        transform: scale(1.05);
+    }
+
+    .banner-input {
+        transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .banner-input:focus {
+        outline: none;
+        border: 0.1rem solid var(--color-orange);
+        box-shadow: 0 0 0.2rem var(--color-orange);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    .container {
+        padding: 0 2em;
+    }
+
+
+    .options {
+        margin-right: auto;
+    }
+
+    .container-text {
+        display: block;
+    }
+}
